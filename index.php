@@ -21,7 +21,7 @@
             <section class="hero">
                 <h2>Discover Fresh and Delicious Juices</h2>
                 <p>Explore our wide range of fresh juices made from the finest fruits and ingredients.</p>
-                <a href="view/aboutUs.php" class="cta">Learn More</a>
+                <a href="View/aboutUs.php" class="cta">Learn More</a>
             </section>
             <section class="about">
                 <h2>About Us</h2>
