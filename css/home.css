@@ -1,0 +1,297 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #f8c653;
+    padding: 20px 0;
+    color: #fff;
+    text-align: center;
+    z-index: 1;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 24px;
+    color: #fff;
+}
+
+header nav a {
+    margin-left: 20px;
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    background-color: #4CAF50;
+}
+
+
+
+header nav a[name="cart"] {
+    background-color: #4CAF50;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+header nav a[name="cart"]:hover {
+    background-color: #45a049;
+}
+
+
+
+main {
+    padding: 40px 0;
+    margin-top: 100px;
+}
+
+.welcome {
+    text-align: center;
+}
+
+.welcome h2 {
+    font-size: 32px;
+    color: #333;
+}
+
+.welcome p {
+    margin-bottom: 20px;
+    color: #666;
+}
+
+.juices {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.juices h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+
+.juices li {
+    list-style: none;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    border: green;
+    border-radius: 8px;
+}
+
+.juices li img {
+    width: 150px;
+    height: auto;
+    margin-right: 20px;
+    border-radius: 8px;
+}
+
+.juices li a {
+    font-size: 18px;
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.juices li a:hover {
+    color: #007bff;
+}
+
+.juices li button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: auto;
+}
+
+.juices li button:hover {
+    background-color: #45a049;
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    z-index: 2;
+
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Style for ingredients section */
+.ingredients {
+    margin-top: 50px;
+    text-align: center;
+}
+
+/* Style for ingredients title */
+.ingredients h2 {
+    font-size: 48px;
+    margin-bottom: 40px;
+    color: #333;
+}
+
+/* Style for ingredient form */
+#ingredient-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Style for ingredients select */
+.ingredients select {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    font-size: 24px;
+    border-radius: 15px;
+    border: 2px solid #ddd;
+    box-sizing: border-box;
+    margin-bottom: 40px;
+    appearance: none;
+    background-color: #f9f9f9;
+    transition: border-color 0.3s ease;
+}
+
+.ingredients select:focus {
+    outline: none;
+    border-color: #007bff;
+}
+
+/* Style for submit button */
+.ingredients button {
+    padding: 20px 40px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 24px;
+    transition: background-color 0.3s ease;
+}
+
+.ingredients button:hover {
+    background-color: #0056b3;
+}
+
+
+
+
+
+
+.ingredients {
+    font-size: 1.2em;
+    background-color: #f0f8ea; 
+    padding: 20px; 
+}
+
+.checkbox-group {
+    column-count: 3;
+    column-gap: 1em;
+}
+
+input[type="checkbox"] {
+    margin-right: 0.5em;
+    transform: scale(1.5); 
+}
+
+label {
+    display: inline-block;
+    margin-bottom: 0.5em;
+    font-size: inherit; 
+}
+
+
+
+.decorative-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50; 
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.decorative-button:hover {
+    background-color: #45a049; 
+}
+
+.textbox{
+    margin: 20px;
+}
+
+.textbox input[type="text"] {
+    width: 100%;
+    padding: 20px;
+    font-size: 18px; 
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+.textbox input[type="text"]:focus {
+    border-color: #007bff;
+}
+
+.DeliveryDate{
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.DeliveryDate input[type="date"]{
+    width: 100%;
+    padding: 20px;
+    font-size: 18px; 
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+.DeliveryDate input[type="date"]:focus {
+    border-color: #007bff;
+}
+
+
+#ingredient-form p {
+    font-weight: bold; 
+    margin-top: 50px;
+    margin-bottom: 10px; 
+}
+
+#ingredient-form p span {
+    display: block;
+}
