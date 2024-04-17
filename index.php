@@ -11,8 +11,8 @@
         <div class="container">
             <h1>Welcome to the Vineyard Lodge</h1>
             <nav>
-                <a href="view/login.php">Login</a>
-                <a href="view/register.php">Register</a>
+                <a href="View/login.php">Login</a>
+                <a href="View/register.php">Register</a>
             </nav>
         </div>
     </header>
