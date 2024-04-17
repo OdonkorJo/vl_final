@@ -1,6 +1,6 @@
 <?php
 session_start();
-include("../settings/connection.php");
+include("../Settings/connection.php");
 
 $useremail = $userpassword ="";
 if (!isset($_POST["submit"])) {
