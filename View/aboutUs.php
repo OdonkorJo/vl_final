@@ -12,8 +12,8 @@
             <h1>About Us</h1>
             <nav>
                 <a href="../index.php">Home</a>
-                <a href="login.php">Login</a>
-                <a href="register.php">Register</a>
+                <a href="../view/login.php">Login</a>
+                <a href="../view/register.php">Register</a>
             </nav>
         </div>
     </header>
