@@ -119,8 +119,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 }
               </script>';
     } //else {
-    //     // Handle the case where required fields are not set
-    //     echo "Error: Required fields are not set.";
+    //      // Handle the case where required fields are not set
+    //      echo "Error: Required fields are not set.";
     // }
 } else {
     // Handle the case where the form is not submitted
